@@ -1,8 +1,14 @@
-# Terminal Color Theme
+# Theme and Terminal Color Theme switcher
 
-A cli tool for changing xfce4-terminal color theme
+A cli tool for changing xfce4 theme and terminal color theme
 
-### Usage
+## Usage
+
+$./xfce-dayligth-switcher  
+
+Add it to a launcher with the panel app in settings
+
+### Other not tested available
 
 #### List available themes
 ```
