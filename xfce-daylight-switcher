@@ -10,18 +10,20 @@ function _set_theme(){
 
 if [ $(xfconf-query list -c xsettings -p /Net/ThemeName) = 'Xfce-dawn' ]
 then
-	xfconf-query -c xsettings -p /Net/ThemeName -s 'Xfce-dusk'
+	#xfconf-query -c xsettings -p /Net/ThemeName -s 'Xfce-dusk'
+	xfconf-query -c xsettings -p /Net/ThemeName -s 'Adwaita-dark'
 	echo 'okdusk'
     #_set_theme 'solarized-dark'
     _set_theme 'dark-pastels'
 	exit
 fi
 
-if [ $(xfconf-query list -c xsettings -p /Net/ThemeName) = 'Xfce-dusk' ]
+if [ $(xfconf-query list -c xsettings -p /Net/ThemeName) = 'Adwaita-dark' ]
 then
 	xfconf-query -c xsettings -p /Net/ThemeName -s 'Xfce-dawn'
 	echo  'okdawn'
-    _set_theme 'solarized-light'
+    #_set_theme 'solarized-light'
+    _set_theme 'black-on-white'
 	exit
 fi
 

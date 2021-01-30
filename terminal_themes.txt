@@ -1,0 +1,8 @@
+black-on-white
+dark-pastels
+green-on-black
+solarized-dark
+solarized-light
+tango
+white-on-black
+xterm
